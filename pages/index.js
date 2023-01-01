@@ -164,8 +164,8 @@ export default function Home() {
 
         <div class="px-5 grid md:grid-cols-4 gap-x-3 lg:gap-x-12">
           {
-            team.map(member => (
-              <div class="mb-6 lg:mb-0 p-3">
+            team.map((member, _) => (
+              <div class="mb-6 lg:mb-0 p-3" key={_}>
                 <div class="bg-white block rounded-lg shadow-lg">
                   <div class="relative overflow-hidden bg-no-repeat bg-cover">
                     <img src="https://mdbootstrap.com/img/new/avatars/6.jpg" class="w-full rounded-t-lg" />
