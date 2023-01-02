@@ -12,9 +12,9 @@ export default function Navbar() {
 
                             <ul className="hidden md:flex font-semibold font-heading">
                                 <li><a className="hover:text-gray-200 px-3" href="#">Events</a></li>
-                                <li><a className="hover:text-gray-200 px-3" href="#">Team</a></li>
+                                <li><a className="hover:text-gray-200 px-3" href="#team">Team</a></li>
                                 <li><a className="hover:text-gray-200 px-3" href="#schedule">Schedule</a></li>
-                                <li><a className="hover:text-gray-200 px-3" href="#">Contact</a></li>
+                                <li><a className="hover:text-gray-200 px-3" href="#contact">Contact</a></li>
                                 <li><a className="hover:text-gray-200 px-3" href="#">Register</a></li>
                             </ul>
                         </div>

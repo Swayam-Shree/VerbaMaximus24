@@ -159,19 +159,17 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section class="text-gray-800 text-center bg-[#FFD6D6] py-10">
+      <section class="text-gray-800 text-center bg-[#FFD6D6] py-10" id="team">
         <h2 class="text-3xl font-bold mb-12">Meet the <u class="text-amber-900">TEAM</u></h2>
 
-        <div class="px-5 grid md:grid-cols-4 gap-x-3 lg:gap-x-12">
+        <div class="px-10 grid md:grid-cols-4 gap-x-3 lg:gap-x-12">
           {
             team.map((member, _) => (
-              <div class="mb-6 lg:mb-0 p-3" key={_}>
+              <div class="mb-6 lg:mb-0 p-3 hover:scale-75 hover:duration-300" key={_}>
                 <div class="bg-white block rounded-lg shadow-lg">
                   <div class="relative overflow-hidden bg-no-repeat bg-cover">
                     <img src="https://mdbootstrap.com/img/new/avatars/6.jpg" class="w-full rounded-t-lg" />
-                    <a href="#!">
-                      <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
-                    </a>
+                    <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                     <svg class="absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
                       style={{ left: 0, bottom: 0 }}>
                       <path fill="#fff"
@@ -188,6 +186,49 @@ export default function Home() {
           }
         </div>
       </section>
+
+      {/* Contact Us Section */}
+      <div class="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0" id="contact">
+        <div class="max-w-6xl mx-auto sm:px-4 lg:px-6">
+          <div class="mt-8 overflow-hidden">
+            <div class="grid grid-cols-1">
+              <div class="p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
+                <h1 class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
+                  Get in touch
+                </h1>
+
+                <div class="flex items-center mt-8 text-gray-600 dark:text-gray-400">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                    BITS Pilani, Hyderabad Campus
+                  </div>
+                </div>
+
+                <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                    Contact Number
+                  </div>
+                </div>
+
+                <div class="flex items-center mt-2 text-gray-600 dark:text-gray-400">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                    elas@hyderabad.bits-pilani.ac.in
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
