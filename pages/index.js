@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
 import Navbar from '../components/Navbar'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const team = [
@@ -78,7 +75,7 @@ export default function Home() {
                   style={{ paddingTop: "56.25%" }}>
                   <iframe className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
                     src="https://www.youtube.com/embed/BckJlGkrMPY?enablejsapi=1&amp;origin=https%3A%2F%2Fmdbootstrap.com"
-                    allowfullscreen="" data-gtm-yt-inspected-2340190_699="true" id="240632615"></iframe>
+                    allowFullScreen="" data-gtm-yt-inspected-2340190_699="true" id="240632615"></iframe>
                 </div>
               </div>
             </div>
@@ -188,11 +185,11 @@ export default function Home() {
       </section>
 
       {/* Contact Us Section */}
-      <div className="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0" id="contact">
+      <div className="relative flex items-top justify-center min-h-screen bg-white dark:bg-gray-900 sm:items-center sm:pt-0 invert" id="contact" style={{ backgroundImage: 'url(/metamorphosisLogo.svg)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
         <div className="max-w-6xl mx-auto sm:px-4 lg:px-6">
           <div className="mt-8 overflow-hidden">
             <div className="grid grid-cols-1">
-              <div className="p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
+              <div className="p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg" >
                 <h1 className="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
                   Get in touch
                 </h1>
