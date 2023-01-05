@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
+import Slideshow from '../components/Slideshow'
 
 export default function Home() {
   const team = [
@@ -82,7 +83,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <section id="events">
+        <Slideshow />
+      </section>
       {/* Schedule */}
       <section id="schedule">
         <div className="bg-[#420404] text-white py-8 w-100">
