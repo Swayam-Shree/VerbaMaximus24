@@ -68,7 +68,7 @@ const Slideshow = () => {
 		),
 	};
 	return (
-		<div className="m-4 overflow-x-visible">
+		<div className="m-4 overflow-x-visible h-auto">
 			
 			<Slide canSwipe={true} autoplay={true} {...zoomInProperties} >
 				{events.map((each, index) => (
@@ -77,7 +77,7 @@ const Slideshow = () => {
 								{each.name}
 							</h1>
 							<img
-								className="w-3/4 object-contain w-full h-full rounded-lg shadow-xl"
+								className="object-contain h-96 rounded-lg mx-4 shadow-xl"
 								src={each.img}
 							/>
 						
