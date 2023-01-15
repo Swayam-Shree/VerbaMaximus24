@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import dynamic from "next/dynamic";
 const Animator = dynamic(
     import("react-scroll-motion").then((it) => it.Animator),
