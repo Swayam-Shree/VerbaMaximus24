@@ -81,6 +81,7 @@ const TitleComponent = () => {
                     }}>
                         <div style={{ fontSize: !isMobile ? "10vw" : "7vh" }}>Metamorphosis</div>
                         <div style={{ fontSize: !isMobile ? "1.5vw" : "2vh", marginTop: "6vh", textAlign: "center" }}>The English Language Activies Society is back again with the literary fest of the year here at <br /> BITS Pilani, Hyderabad Campus.</div>
+                        <div style={{ fontSize: !isMobile ? "1.5vw" : "2vh", marginTop: "6vh", textAlign: "center", color: 'blue' }}><a href="/events/">Click here to know more about the various events being conducted</a></div>
                     </div>
                 </Animator>
             </ScrollPage>

@@ -3,9 +3,10 @@
     --color2: rgb(60, 10, 8);
     --color2Blur: rgba(60, 10, 8, 0.4);
 }
+
 .navbar{
     width: 100vw;
-    height: 5vw;
+    height: 100px;
     background-color: white;
     position: fixed;
     top:0;
@@ -18,7 +19,7 @@
 
 .logo{
     width: 5vw;
-    height: 5vw;
+    height: 100px;
     position: relative;
     left: 5vw;
 }
@@ -38,7 +39,7 @@
 
 .register{
     margin-left: 1vw;
-    padding: 0.7vw 1vw;
+    padding: 15px 10px;
     display: flex;
     align-items: center;
     background-color: var(--color2);
