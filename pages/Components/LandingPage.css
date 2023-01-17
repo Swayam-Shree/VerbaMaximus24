@@ -6,6 +6,10 @@
   --color1Blur: rgba(250, 200, 200, 0.4);
   --color2: rgb(60, 10, 8);
   --color2Blur: rgba(60, 10, 8, 0.4);
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 .title {
   font-size: 7vw;

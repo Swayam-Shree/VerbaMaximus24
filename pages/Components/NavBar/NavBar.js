@@ -9,13 +9,13 @@ const NavBar = () => {
                     <Link scroll={false} href='/#main'>Home</Link>
                 </div>
                 <div className='element'>
-                    <Link scroll={false} href='/events'>Events</Link>
+                    <Link scroll={false} href='/#events'>Events</Link>
                 </div>
                 <div className='element'>
                     <Link scroll={false} href='/#contact'>Contact Us</Link>
                 </div>
                 <div className='element'>
-                    <Link scroll={false} className='register' href='/#main'>Register</Link>
+                    <Link scroll={false} className='register' href='https://unstop.com/p/verba-maximus-23-birla-institute-of-technology-science-bits-pilani-589407'>Register</Link>
                 </div>
             </div>
         </div>
