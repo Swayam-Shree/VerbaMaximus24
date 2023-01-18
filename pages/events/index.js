@@ -55,10 +55,77 @@ const EventsPage = () => {
             time: "at night"
         },
         {
-            title: "DEVIL’S ADVOCATE",
-            desc: "Are you ready to venture into the realm of the morally grey and utterly outrageous, as you go against your own morals to defend your cause? If you feel you are good at defending your stand no matter what, suit up and get ready to play Devil’s Advocate.",
+            title: "JAM",
+            desc: `Are you a good speaker? Can you handle the pressure of a ticking clock well? Can you speak impromptu without faltering? Do you take pride in your communication capabilities? Behold…the stage is yours!
+
+            We bring to you BPHC’s JAM, Just A Minute, an interesting competition where you have only a minute to speak your mind. Oh—and also be pounced on by ten others for every single stutter and stammer. This is not a public-speaking contest or a debate-contest! A super-fun and challenging competition, we promise you fun, challenges and entertainment!
+            `,
             time: "at night"
-        }]
+        },
+        {
+            title: "Safl's BAMBOOZLED",
+            desc: `This Verba Maximus,  Sanskrit and Foreign Languages Club, BPHC brings to you, inspired by the famous sitcom F.R.I.E.N.D.S but with a few unique twists "𝑩𝒂𝒎𝒃𝒐𝒐𝒛𝒍𝒆𝒅".
+            Participate in teams of two and get ready for tons of fun as you battle it out in teams of two, solving puzzles, uncovering identities, and testing the limits of your problem solving skills as you and your partner advance through the levels, in the ultimate display of wits and teamplay.
+            
+            And remember, the first rule of Bamboozled, is to not get bamboozled.
+            `,
+            time: "at night"
+        },
+        {
+            title: "Shloka Recitation",
+            desc: `This event will be conducted by an organisation.There will be individual participants for this event. They'll be asked to memorize a part of the wBhagavad Gita for the event. 3 judges from the organisation will be judging their recitation. Every participants will get 5 minutes for shloka recitation. Participants should know the reference of the shlokas. The participants will also be asked the explanation of the recited shlokas. The winners will be awarded with cash prizes.`,
+            time: "at night"
+        },
+        {
+            title: "CLASSROOM RELAY",
+            desc: `Each team will be constituted with 4-5 members. There will be a quest for each member depending on their position in the re-lay. Each task will be a clue for the succeeding task assigned to the next member. For example our first quest is deciphering the bahamani script for which they'll be given a dictionary pertaining to that language. The participants have to go through the dictionary and decipher the script which is also a clue for the next task which will be solved by the 2nd member. Ultimately after solving each quest which is linked consecutively the final quest will lead them to the final answer.
+            The team to come up with the answer in the shortest time will be the winner of the re-lay.
+            The quests could be of the following formats: Decipher the script, spell bee, charades (linguistic), chinese whisper, Identify the murderer
+            `,
+            time: "at night"
+        },
+        {
+            title: "Backstory",
+            desc: `Unlock the secrets of history’s unsolved mysteries!
+            Calling all detectives and aspiring sleuths to join us for a thrilling competition where participants will be given real life unsolved news pieces and tasked with writing a scenario that solves the mystery. Put your detective skills to the test and uncover the truth about some of history’s most intriguing unsolved cases. Register now for this one  event.
+            `,
+            time: "at night"
+        },
+        {
+            title: "FINAL FANTASY",
+            desc: `Here's a call to all the smut enthusiasts and fan-fiction fanatics! Did you get inspired after you read a piece by a connoisseur of the genre?
+            Have you ever thought about trying your hand at pg 18 content?
+            Ever had intrusive thoughts about starring 2 individuals from your campus in your unholy fan fics?
+            Ever wanted to delve into details of deep fantasies and unspeakable scenarios? 
+            
+            Give catharsis to the unspoken desires of your mind but with a twist.
+            Participate in this thrilling competition where you get to produce your own piece of erotic literature from our in house, campus friendly prompts!
+            `,
+            time: "at night"
+        },
+        {
+            title: "Hindi Tarang's YOUTH MAHASABHA ",
+            desc: `Youth Mahasabha, Hindi Tarang’s biggest debate competition is coming your way. Unlike formal parliamentary debates, this is a debate among popular logicians, theologians and jurists, all with a different sense of logic, who contribute their ideas to the public discourse of the debate.
+
+            We seek your participation in this round of intense brainstorming and add another feather to the ever-growing quilt of knowledge to the debate cum group discussion.
+            
+            Position all the areas of intellect to operate as we take you through a rollercoaster of topics, tunnels of sociocultural issues. We will be exploring not only topics that explore situational dilemmas, philosophy, ethics, and economics we will also take you through the latest points cooking up on current and world affairs.
+            `,
+            time: "at night"
+        },
+        {
+            title: "BOL BACHCHAN",
+            desc: `
+            To all the music lovers, bilingualists and movie buffs; here is Bol Bachchan cordially inviting you to vibe and jam with other fans of Bollywood harmony! As we freshers recover from the Trauma of midterms and other exams, and seniors from their compres; here is a place where you can let your mind wander loose and play in teams to translate popular movie and song titles to various languages, guess amazing songs in a short span of time, and much more. Flaunt your skills with these songs in the intense rounds of contests. We at Hindi Tarang, bring you this fun and quirky game of semantics, translations, and guesses`,
+            time: "at night"
+        },
+        {
+            title: "Quiz",
+            desc: `Are you one of those inquisitive minds, having an urge to dive into the depths of knowledge about any and everything, be it books, culture, mythology or literature? Are you one of those who never leave any stone unturned to constantly learn and improve ? Do you think you have what it takes to compete with some of the brightest and aware minds? If your answer is yes, then you are at the right place. This Verba Maximus, ELAS and The Quiz Club in collaboration bring to you "THE LIT QUIZ". Come and join us for an exciting event to explore more, showcase your vast realm of knowledge and participate in a win-win situation because as it is rightly said - "You either win or you learn."
+            `,
+            time: "at night"
+        }
+    ]
     return (
         <div>
             <Head>
