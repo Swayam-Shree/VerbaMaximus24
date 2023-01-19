@@ -85,6 +85,11 @@ const EventsPage = () => {
             time: "at night"
         },
         {
+            title: "Devil's Advocate",
+            desc: `Welcome to 'Devil's advocate'! Put that devious little mind of yours in defending the indefensible. In this exciting game, prompts will be given that you must justify. Whether or not you believe it yourself, you must make sure the audience does after you're through with them. Your wits and morality will be challenged, language will flourish and incredible fun is assured!`,
+            time: "at night"
+        },
+        {
             title: "Backstory",
             desc: `Unlock the secrets of history’s unsolved mysteries!
             Calling all detectives and aspiring sleuths to join us for a thrilling competition where participants will be given real life unsolved news pieces and tasked with writing a scenario that solves the mystery. Put your detective skills to the test and uncover the truth about some of history’s most intriguing unsolved cases. Register now for this one  event.
