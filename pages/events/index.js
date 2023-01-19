@@ -84,7 +84,7 @@ const EventsPage = () => {
             time: "Sun: 2pm G107"
         },
         {
-            title: "CLASSROOM RELAY",
+            title: "Marathon of madness",
             desc: `Each team will be constituted with 4-5 members. There will be a quest for each member depending on their position in the re-lay. Each task will be a clue for the succeeding task assigned to the next member. For example our first quest is deciphering the bahamani script for which they'll be given a dictionary pertaining to that language. The participants have to go through the dictionary and decipher the script which is also a clue for the next task which will be solved by the 2nd member. Ultimately after solving each quest which is linked consecutively the final quest will lead them to the final answer.
             The team to come up with the answer in the shortest time will be the winner of the re-lay.
             The quests could be of the following formats: Decipher the script, spell bee, charades (linguistic), chinese whisper, Identify the murderer
