@@ -35,17 +35,7 @@ const EventsPage = () => {
             `,
             time: "Sat: 1pm F103"
         },
-        {
-            title: "Picture Perspective",
-            desc: "With Picture Perspective, the photography club is here to give you an opportunity to stare deep into yourself as you carefully try to unravel the meaning of a few complex brushstrokes. Participants will be given picture prompts and will be given the opportunity to write according to their hearts desire.",
-            time: "Sat: 1pm G101 & G102"
-        },
 
-        {
-            title: "Devil's Advocate",
-            desc: `Welcome to 'Devil's advocate'! Put that devious little mind of yours in defending the indefensible. In this exciting game, prompts will be given that you must justify. Whether or not you believe it yourself, you must make sure the audience does after you're through with them. Your wits and morality will be challenged, language will flourish and incredible fun is assured!`,
-            time: "Sat: 2pm G103 & G104"
-        },
         {
             title: "Hindi Tarang's YOUTH MAHASABHA ",
             desc: `Youth Mahasabha, Hindi Tarang’s biggest debate competition is coming your way. Unlike formal parliamentary debates, this is a debate among popular logicians, theologians and jurists, all with a different sense of logic, who contribute their ideas to the public discourse of the debate.
@@ -69,11 +59,6 @@ const EventsPage = () => {
             title: "SYMPHONIES OF THE SOUL",
             desc: "The Music club is here to bring out the poet in you within you. Symphonies of the soul. They play the instruments and you write the songs. Get that hand moving and write about whatever the melodies make you feel. ",
             time: "Sat: 4pm OAT"
-        },
-        {
-            title: "RENAISSANCE",
-            desc: `Re-birth themed writing prompts- rebirth of 2020s (may use covid-19 as inspiration as renaissance in the 21st century), rebirth in your own life (some event that changed your perception of the world), you being reborn as someone from the past you’ve always wanted to be (write a day in their life). `,
-            time: "Sun: 9am F103"
         },
         {
             title: "Slam Poetry",
@@ -106,14 +91,6 @@ const EventsPage = () => {
             `,
             time: "Sun: 1pm G106"
         },
-
-        {
-            title: "Backstory",
-            desc: `Unlock the secrets of history’s unsolved mysteries!
-            Calling all detectives and aspiring sleuths to join us for a thrilling competition where participants will be given real life unsolved news pieces and tasked with writing a scenario that solves the mystery. Put your detective skills to the test and uncover the truth about some of history’s most intriguing unsolved cases. Register now for this one  event.
-            `,
-            time: "Sun: 12pm F107"
-        },
         {
             title: "BOL BACHCHAN",
             desc: `
@@ -135,6 +112,28 @@ const EventsPage = () => {
             desc: `ARG - “Alternate Reality Game” is an internet maze where your team navigates through an online labyrinth in search for answers of a gripping story that has twists and turns at every corner. Can you braid together the web of clues present in the vastness of cyberspace and unravel the nuances of the narratives?
         Mental fortitude and thinking on your feet are helpful traits as the ARG is sure to test your patience, but rest assured it’s a very rewarding experience that is sure to satiate your thirst for an adventurous thrill.`,
             time: "Sat: 2pm Online"
+        },
+        {
+            title: "Devil's Advocate",
+            desc: `Welcome to 'Devil's advocate'! Put that devious little mind of yours in defending the indefensible. In this exciting game, prompts will be given that you must justify. Whether or not you believe it yourself, you must make sure the audience does after you're through with them. Your wits and morality will be challenged, language will flourish and incredible fun is assured!`,
+            time: "Sat: 2pm G103 & G104"
+        },
+        {
+            title: "RENAISSANCE",
+            desc: `Re-birth themed writing prompts- rebirth of 2020s (may use covid-19 as inspiration as renaissance in the 21st century), rebirth in your own life (some event that changed your perception of the world), you being reborn as someone from the past you’ve always wanted to be (write a day in their life). `,
+            time: "Sun: 9am F103"
+        },
+        {
+            title: "Picture Perspective",
+            desc: "With Picture Perspective, the photography club is here to give you an opportunity to stare deep into yourself as you carefully try to unravel the meaning of a few complex brushstrokes. Participants will be given picture prompts and will be given the opportunity to write according to their hearts desire.",
+            time: "Sat: 1pm G101 & G102"
+        },
+        {
+            title: "Backstory",
+            desc: `Unlock the secrets of history’s unsolved mysteries!
+            Calling all detectives and aspiring sleuths to join us for a thrilling competition where participants will be given real life unsolved news pieces and tasked with writing a scenario that solves the mystery. Put your detective skills to the test and uncover the truth about some of history’s most intriguing unsolved cases. Register now for this one  event.
+            `,
+            time: "Sun: 12pm F107"
         },
     ]
 
@@ -166,7 +165,7 @@ const EventsPage = () => {
                         })}
                     </div>
 
-                    <div className='sub-heading-title'>ONLINE+OFFLINE EVENTS</div>
+                    <div className='sub-heading-title'>HYBRID EVENTS</div>
                     {eventShown && <EventDetail name={event.title} desc={event.desc} time={event.time} setEventShown={setEventShown} onClickOutside={() => setEventShown(false)}></EventDetail>}
                     <div className='landing-cards' >
                         {onlineEvents.map((event, i) => {
