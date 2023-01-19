@@ -12,6 +12,9 @@ const NavBar = () => {
                     <Link scroll={false} href='/#events'>Events</Link>
                 </div>
                 <div className='element'>
+                    <Link scroll={false} href='/#pricing'>Pricing</Link>
+                </div>
+                <div className='element'>
                     <Link scroll={false} href='/#contact'>Contact Us</Link>
                 </div>
                 <div className='element'>

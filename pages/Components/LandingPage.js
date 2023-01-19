@@ -91,51 +91,51 @@ const TitleComponent = () => {
 
             <section id="eventslanding"><EventsPage /></section>
 
-                <div className='landing-events' style={{
+            <div className='landing-events' id="pricing" style={{
                 backgroundColor: "#ffb6c1"
             }}>
-                    <div className='sub-heading-title'>PRICING AND REGISTRATION</div>
-                    <div className='landing-cards'>
-                        <div className='landing-card'>
-                            <div className='card-title'>
-                                {"Comedy Night Pass"}
-                            </div>
-                            <div className='card-time'>
-                                {"Rs. 300/-"}
-                            </div>
-                            <div className='card-desc'>
-                                {"\n\nAccess to the comedy night :)"}
-                            </div>
+                <div className='sub-heading-title'>PRICING AND REGISTRATION</div>
+                <div className='landing-cards'>
+                    <div className='landing-card'>
+                        <div className='card-title'>
+                            {"Comedy Night Pass"}
                         </div>
-
-                        <div className='landing-card'>
-                            <div className='card-title'>
-                                {"Fest Pass"}
-                            </div>
-                            <div className='card-time'>
-                                {"Rs. 300/-"}
-                            </div>
-                            <div className='card-desc'>
-                                {"\n\nAccess to all events except proshow"}
-                            </div>
+                        <div className='card-time'>
+                            {"Rs. 300/-"}
                         </div>
-
-                        <div className='landing-card'>
-                            <div className='card-title'>
-                                {"Online Pass"}
-                            </div>
-                            <div className='card-time'>
-                                {"Rs. 100/-"}
-                            </div>
-                            <div className='card-desc'>
-                                {"\n\nAccess to all the online and hybrid events"}
-                            </div>
+                        <div className='card-desc'>
+                            {"\n\nAccess to the comedy night :)"}
                         </div>
-
                     </div>
-                    <Link scroll={false} className='register' href='https://unstop.com/creative-cultural-event/verba-maximus-23-complete-pass-verba-maximus-birla-institute-of-technology-science-bits-pilani-591176'>Register Now!!</Link>
-                    <br/> <br/>
+
+                    <div className='landing-card'>
+                        <div className='card-title'>
+                            {"Fest Pass"}
+                        </div>
+                        <div className='card-time'>
+                            {"Rs. 300/-"}
+                        </div>
+                        <div className='card-desc'>
+                            {"\n\nAccess to all events except proshow"}
+                        </div>
+                    </div>
+
+                    <div className='landing-card'>
+                        <div className='card-title'>
+                            {"Online Pass"}
+                        </div>
+                        <div className='card-time'>
+                            {"Rs. 100/-"}
+                        </div>
+                        <div className='card-desc'>
+                            {"\n\nAccess to all the online and hybrid events"}
+                        </div>
+                    </div>
+
                 </div>
+                <Link scroll={false} className='register' href='https://unstop.com/creative-cultural-event/verba-maximus-23-complete-pass-verba-maximus-birla-institute-of-technology-science-bits-pilani-591176'>Register Now!!</Link>
+                <br /> <br />
+            </div>
         </ScrollContainer>
     )
 }
