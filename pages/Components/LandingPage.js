@@ -84,7 +84,7 @@ const TitleComponent = () => {
                         justifyContent: "center",
                     }}>
                         <div style={{ fontSize: !isMobile ? "10vw" : "7vh" }}>Metamorphosis</div>
-                        <div style={{ fontSize: !isMobile ? "1.5vw" : "2vh", marginTop: "6vh", textAlign: "center" }}>Theme for the Annual English Language Activies Society's literary fest of the year here at <br /> BITS Pilani, Hyderabad Campus.</div>
+                        <div style={{ fontSize: !isMobile ? "1.5vw" : "2vh", marginTop: "6vh", textAlign: "center" }}>Theme for the Annual English Language Activies Society`&apos;`s literary fest of the year here at <br /> BITS Pilani, Hyderabad Campus.</div>
                     </div>
                 </Animator>
             </ScrollPage>
