@@ -17,7 +17,7 @@ const EventsPage = () => {
         {
             title: "METAMORPHOSIS",
             desc: `Our theme's titular event, METAMORPHOSIS. Play the role of Gregor Samsa (from Metamorphosis by Kafka) as participants write their way out of sticky situations and challenges that we throw in their way! As part of the OC, we will have to come up with different prompts and situations for the participants to write on.`,
-            time: "Sat: 1pm @ F102"
+            time: "Sat: 1pm F102"
         }, {
             title: "Sherlocked",
             desc: `There has been a murder on campus. In this evolving case that has roped in eight separate individuals, confusion has been the only constant. You are our only shot at solving this murder mystery. Interrogate and cross-examine the eight suspects as you attempt to uncover the truth at SHERLOCKED, VM 2O22, and help us crack the case!`,
@@ -33,12 +33,12 @@ const EventsPage = () => {
             Give catharsis to the unspoken desires of your mind but with a twist.
             Participate in this thrilling competition where you get to produce your own piece of erotic literature from our in house, campus friendly prompts!
             `,
-            time: "Sat: 1pm @ F103"
+            time: "Sat: 1pm F103"
         },
         {
             title: "Picture Perspective",
             desc: "With Picture Perspective, the photography club is here to give you an opportunity to stare deep into yourself as you carefully try to unravel the meaning of a few complex brushstrokes. Participants will be given picture prompts and will be given the opportunity to write according to their hearts desire.",
-            time: "Sat: 1pm @ G101 & G102"
+            time: "Sat: 1pm G101 & G102"
         },
         {
             title: "ARG",
