@@ -40,12 +40,7 @@ const EventsPage = () => {
             desc: "With Picture Perspective, the photography club is here to give you an opportunity to stare deep into yourself as you carefully try to unravel the meaning of a few complex brushstrokes. Participants will be given picture prompts and will be given the opportunity to write according to their hearts desire.",
             time: "Sat: 1pm G101 & G102"
         },
-        {
-            title: "ARG",
-            desc: `ARG - “Alternate Reality Game” is an internet maze where your team navigates through an online labyrinth in search for answers of a gripping story that has twists and turns at every corner. Can you braid together the web of clues present in the vastness of cyberspace and unravel the nuances of the narratives?
-        Mental fortitude and thinking on your feet are helpful traits as the ARG is sure to test your patience, but rest assured it’s a very rewarding experience that is sure to satiate your thirst for an adventurous thrill.`,
-            time: "Sat: 2pm Online"
-        },
+
         {
             title: "Devil's Advocate",
             desc: `Welcome to 'Devil's advocate'! Put that devious little mind of yours in defending the indefensible. In this exciting game, prompts will be given that you must justify. Whether or not you believe it yourself, you must make sure the audience does after you're through with them. Your wits and morality will be challenged, language will flourish and incredible fun is assured!`,
@@ -85,8 +80,6 @@ const EventsPage = () => {
             desc: "Slam is a competitive event in which poets perform spoken word poetry in front of a live audience and a panel of judges. A poem is a form of expressing oneself in the utmost creative way possible. Rhyming or non-rhyming, narrative or Lyrical, the participants will have the right to write whatever and however they want.",
             time: "Sun: 9am G105"
         },
-        
-        
         {
             title: "ShipWrecked",
             desc: "A host of your favourite characters from popular culture find themselves on a sinking ship. The problem - there is only one life jacket. Put yourself in their shoes and argue for why they deserve to keep their life the most.  ",
@@ -113,7 +106,7 @@ const EventsPage = () => {
             `,
             time: "Sun: 1pm G106"
         },
-        
+
         {
             title: "Backstory",
             desc: `Unlock the secrets of history’s unsolved mysteries!
@@ -134,6 +127,17 @@ const EventsPage = () => {
             time: "Sun: 12pm F102"
         }
     ]
+
+
+    const onlineEvents = [
+        {
+            title: "ARG",
+            desc: `ARG - “Alternate Reality Game” is an internet maze where your team navigates through an online labyrinth in search for answers of a gripping story that has twists and turns at every corner. Can you braid together the web of clues present in the vastness of cyberspace and unravel the nuances of the narratives?
+        Mental fortitude and thinking on your feet are helpful traits as the ARG is sure to test your patience, but rest assured it’s a very rewarding experience that is sure to satiate your thirst for an adventurous thrill.`,
+            time: "Sat: 2pm Online"
+        },
+    ]
+
     return (
         <div>
             <Head>
@@ -161,11 +165,31 @@ const EventsPage = () => {
                             </div>)
                         })}
                     </div>
+
+                    <div className='sub-heading-title'>ONLINE+OFFLINE EVENTS</div>
+                    {eventShown && <EventDetail name={event.title} desc={event.desc} time={event.time} setEventShown={setEventShown} onClickOutside={() => setEventShown(false)}></EventDetail>}
+                    <div className='landing-cards' >
+                        {onlineEvents.map((event, i) => {
+                            return (<div className='landing-card' onClick={() => showEvent(i)} key={i}>
+                                <div className='card-title'>
+                                    {event.title}
+                                </div>
+                                <div className='card-time'>
+                                    <b>TIME</b>: {event.time}
+                                </div>
+                                <div className='card-desc'>
+                                    {event.desc.toString().slice(0, 100)}...
+                                </div>
+                            </div>)
+                        })}
+                    </div>
                 </div>
             </section>
         </div>
     );
 }
+
+
 const EventDetail = ({ name, time, desc, setEventShown, onClickOutside }) => {
     const ref = useRef(null);
     useEffect(() => {

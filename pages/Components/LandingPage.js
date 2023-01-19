@@ -73,7 +73,9 @@ const TitleComponent = () => {
                     <Animator animation={batch(Fade(), Sticky(50, !lowHeight ? 60 : 80), MoveOut(0, -20))}>
                         <div className='sub-title'>28-29 JAN</div>
                     </Animator>
-                </ScrollPage></section>
+                </ScrollPage>
+            </section>
+
             <ScrollPage>
                 <Animator animation={FadeUp}>
                     <div style={{
@@ -87,6 +89,7 @@ const TitleComponent = () => {
                     </div>
                 </Animator>
             </ScrollPage>
+            
             <section id="eventslanding"><EventsPage /></section>
         </ScrollContainer>
     )
