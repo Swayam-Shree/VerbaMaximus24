@@ -59,7 +59,7 @@ const EventsPage = () => {
             
             Position all the areas of intellect to operate as we take you through a rollercoaster of topics, tunnels of sociocultural issues. We will be exploring not only topics that explore situational dilemmas, philosophy, ethics, and economics we will also take you through the latest points cooking up on current and world affairs.
             `,
-            time: "Sat: 3pm F104"
+            time: "Sat: 4pm F104"
         },
         {
             title: "Safl's BAMBOOZLED",
