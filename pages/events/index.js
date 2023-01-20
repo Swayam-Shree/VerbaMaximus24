@@ -9,8 +9,8 @@ const EventsPage = () => {
         time: "",
         desc: ""
     })
-    const showEvent = (index) => {
-        setEvent(events[index]);
+    const showEvent = (index, arr) => {
+        setEvent(arr[index]);
         setEventShown(true);
     }
     const events = [
@@ -151,7 +151,7 @@ const EventsPage = () => {
                     {eventShown && <EventDetail name={event.title} desc={event.desc} time={event.time} setEventShown={setEventShown} onClickOutside={() => setEventShown(false)}></EventDetail>}
                     <div className='landing-cards' >
                         {events.map((event, i) => {
-                            return (<div className='landing-card' onClick={() => showEvent(i)} key={i}>
+                            return (<div className='landing-card' onClick={() => showEvent(i, events)} key={i}>
                                 <div className='card-title'>
                                     {event.title}
                                 </div>
@@ -169,7 +169,7 @@ const EventsPage = () => {
                     {eventShown && <EventDetail name={event.title} desc={event.desc} time={event.time} setEventShown={setEventShown} onClickOutside={() => setEventShown(false)}></EventDetail>}
                     <div className='landing-cards' >
                         {onlineEvents.map((event, i) => {
-                            return (<div className='landing-card' onClick={() => showEvent(i)} key={i}>
+                            return (<div className='landing-card' onClick={() => showEvent(i, onlineEvents)} key={i}>
                                 <div className='card-title'>
                                     {event.title}
                                 </div>

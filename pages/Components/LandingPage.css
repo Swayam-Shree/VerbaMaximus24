@@ -164,6 +164,13 @@
   }
   .sub-heading-title {
     font-size: 7vh;
+    text-align: center;
+  }
+  .detail-title{
+    font-size: 7vw;
+  }
+  .detail-desc{
+    width: 90%;
   }
   .landing-card {
     width: 400px;
