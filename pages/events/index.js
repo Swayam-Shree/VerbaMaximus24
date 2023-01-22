@@ -16,40 +16,36 @@ const EventsPage = () => {
     const events = [
         {
             title: "METAMORPHOSIS",
-            desc: `Our theme's titular event, METAMORPHOSIS. Play the role of Gregor Samsa (from Metamorphosis by Kafka) as participants write their way out of sticky situations and challenges that we throw in their way! As part of the OC, we will have to come up with different prompts and situations for the participants to write on.`,
+            desc: `Ever wanted to be a Sorcerer whose spells scorch the toughest of foes? A Samurai for whom honour comes above all? An outcast on a quest for revenge? Or maybe a Bard, whose mesmerizing melodies get him through the worst of perils? And better yet, embark on an adventure where every choice counts?
+            Well, we have just the event for you!
+            Put every ounce of your creative skills and quick wits to use as you write your way through our expansive, intricately designed world while charting out the identity and eventual fate of your character. Carve out your own legend as you seek your path of metamorphosis in this Dungeons and Dragons-inspired, resplendent RPG.
+            `,
             time: "Sat: 1pm F102"
         }, {
             title: "Sherlocked",
-            desc: `There has been a murder on campus. In this evolving case that has roped in eight separate individuals, confusion has been the only constant. You are our only shot at solving this murder mystery. Interrogate and cross-examine the eight suspects as you attempt to uncover the truth at SHERLOCKED, VM 2O22, and help us crack the case!`,
+            desc: `There has been a murder on campus. In this evolving case involving 8 individuals, confusion has been the only constant. You are the only shot we have at solving this murder mystery. Interrogate the 8 suspects at SHERLOCKED, VM 2023 and help us crack the case`,
             time: "Sun: 4pm F105"
         },
         {
             title: "FINAL FANTASY",
-            desc: `Here's a call to all the smut enthusiasts and fan-fiction fanatics! Did you get inspired after you read a piece by a connoisseur of the genre?
-            Have you ever thought about trying your hand at pg 18 content?
-            Ever had intrusive thoughts about starring 2 individuals from your campus in your unholy fan fics?
-            Ever wanted to delve into details of deep fantasies and unspeakable scenarios? 
-            
-            Give catharsis to the unspoken desires of your mind but with a twist.
-            Participate in this thrilling competition where you get to produce your own piece of erotic literature from our in house, campus friendly prompts!
+            desc: `Have you ever thought about trying your hand at PG-18 content?
+            Here's a call to all the smut enthusiasts and fan-fiction fanatics!
+            Give catharsis to the unspoken desires of your mind but with a twist. Through this contest, produce your erotic literature from our in-house, campus-friendly prompts.
             `,
             time: "Sat: 1pm F103"
         },
 
         {
             title: "Hindi Tarang's YOUTH MAHASABHA ",
-            desc: `Youth Mahasabha, Hindi Tarang’s biggest debate competition is coming your way. Unlike formal parliamentary debates, this is a debate among popular logicians, theologians and jurists, all with a different sense of logic, who contribute their ideas to the public discourse of the debate.
-            
-            We seek your participation in this round of intense brainstorming and add another feather to the ever-growing quilt of knowledge to the debate cum group discussion.
-            
-            Position all the areas of intellect to operate as we take you through a rollercoaster of topics, tunnels of sociocultural issues. We will be exploring not only topics that explore situational dilemmas, philosophy, ethics, and economics we will also take you through the latest points cooking up on current and world affairs.
+            desc: `Youth Mahasabha, Hindi Tarang’s biggest debate, is coming your way! A discussion among popular logicians, theologians and jurists who contribute their ideas to the public discourse. Get ready for a rollercoaster of sociocultural issues, dilemmas, philosophy, ethics, and economies.
+
             `,
             time: "Sat: 4pm F104"
         },
         {
             title: "Safl's BAMBOOZLED",
-            desc: `This Verba Maximus,  Sanskrit and Foreign Languages Club, BPHC brings to you, inspired by the famous sitcom F.R.I.E.N.D.S but with a few unique twists "𝑩𝒂𝒎𝒃𝒐𝒐𝒛𝒍𝒆𝒅".
-            Participate in teams of two and get ready for tons of fun as you battle it out in teams of two, solving puzzles, uncovering identities, and testing the limits of your problem solving skills as you and your partner advance through the levels, in the ultimate display of wits and teamplay.
+            desc: `This Verba Maximus, Sanskrit and Foreign Languages Club, BPHC brings to you, "𝑩𝒂𝒎𝒃𝒐𝒐𝒛𝒍𝒆𝒅" - inspired by the famous sitcom F.R.I.E.N.D.S but with a few unique twists of our own .
+            Participate in teams of two as you battle it out. Get ready to solve puzzles, uncover identities, and test the limits of your problem solving skills as you and your partner advance through the levels- an ultimate display of wits and teamplay.
             
             And remember, the first rule of Bamboozled, is to not get bamboozled.
             `,
@@ -57,7 +53,7 @@ const EventsPage = () => {
         },
         {
             title: "SYMPHONIES OF THE SOUL",
-            desc: "The Music club is here to bring out the poet in you within you. Symphonies of the soul. They play the instruments and you write the songs. Get that hand moving and write about whatever the melodies make you feel. ",
+            desc: `Do you remember those days when you came back home from school feeling frustrated?  Or that time you woke up after a quick nap and felt an inexplicable longing to sit by the window and think?  Well if you did.. now is the right time to put those thoughts to words because the Music club is here to bring out the poet in you with Symphonies of the soul. We play the instruments and you write the songs. Get that hand moving and write about whatever the melodies make you feel.`,
             time: "Sat: 4pm OAT"
         },
         {
@@ -67,28 +63,28 @@ const EventsPage = () => {
         },
         {
             title: "ShipWrecked",
-            desc: "A host of your favourite characters from popular culture find themselves on a sinking ship. The problem - there is only one life jacket. Put yourself in their shoes and argue for why they deserve to keep their life the most.  ",
+            desc: `A plethora of your favourite characters from popular culture running the gamut from politicians, animated characters, billionaires, sportspersons, cartoons, to name a few, find themselves on a sinking ship. But voila! There is just a single life jacket. Put yourself in their shoes and argue for why they deserve to be saved against others.
+            `,
             time: "Sun: 9am G101 & G102"
         },
         {
             title: "JAM",
-            desc: `Are you a good speaker? Can you handle the pressure of a ticking clock well? Can you speak impromptu without faltering? Do you take pride in your communication capabilities? Behold…the stage is yours!
+            desc: ` Do you take pride in your communication capabilities? Can you handle the pressure of a ticking clock well? Can you speak impromptu without faltering? Lo and behold…the stage is yours!
 
-            We bring to you BPHC’s JAM, Just A Minute, an interesting competition where you have only a minute to speak your mind. Oh—and also be pounced on by ten others for every single stutter and stammer. This is not a public-speaking contest or a debate-contest! A super-fun and challenging competition, we promise you fun, challenges and entertainment!
+            We bring to you BPHC’s JAM, Just A Minute, an interesting competition where you have only a minute to speak your mind. Oh—and also be pounced on by ten others for every single stutter and stammer. But keep in mind this is not a public-speaking contest or a debate-contest but one of wit and level-headedness! A super-fun and challenging competition, we promise you fun, challenges and entertainment!
             `,
             time: "Sun: 11am G103 & G104"
         },
         {
             title: "Shloka Recitation",
-            desc: `This event will be conducted by an organisation.There will be individual participants for this event. They'll be asked to memorize a part of the wBhagavad Gita for the event. 3 judges from the organisation will be judging their recitation. Every participants will get 5 minutes for shloka recitation. Participants should know the reference of the shlokas. The participants will also be asked the explanation of the recited shlokas. The winners will be awarded with cash prizes.`,
+            desc: `This event will be conducted by an organisation and will be allowing individual participation. The participants will be asked to memorise a part of the Bhagavad Gita for the event with each participant getting 5 minutes for shloka recitation.
+            Three judges from the organisation will be judging their recitation. Participants should know the reference of the shlokas and will also be asked for the explanation of the recited shlokas. The winners will be awarded with cash prizes.
+            `,
             time: "Sun: 2pm G107"
         },
         {
             title: "Marathon of madness",
-            desc: `Each team will be constituted with 4-5 members. There will be a quest for each member depending on their position in the re-lay. Each task will be a clue for the succeeding task assigned to the next member. For example our first quest is deciphering the bahamani script for which they'll be given a dictionary pertaining to that language. The participants have to go through the dictionary and decipher the script which is also a clue for the next task which will be solved by the 2nd member. Ultimately after solving each quest which is linked consecutively the final quest will lead them to the final answer.
-            The team to come up with the answer in the shortest time will be the winner of the re-lay.
-            The quests could be of the following formats: Decipher the script, spell bee, charades (linguistic), chinese whisper, Identify the murderer
-            `,
+            desc: `Each member will have a quest depending on their position in the relay. Each task will be a clue for the task assigned to the next member. Our quests will include deciphering the bahmani script, spell bee, chinese whisper, charades and identifying the murderers.`,
             time: "Sun: 1pm G106"
         },
         {
@@ -99,7 +95,12 @@ const EventsPage = () => {
         },
         {
             title: "Quiz",
-            desc: `Are you one of those inquisitive minds, having an urge to dive into the depths of knowledge about any and everything, be it books, culture, mythology or literature? Are you one of those who never leave any stone unturned to constantly learn and improve ? Do you think you have what it takes to compete with some of the brightest and aware minds? If your answer is yes, then you are at the right place. This Verba Maximus, ELAS and The Quiz Club in collaboration bring to you "THE LIT QUIZ". Come and join us for an exciting event to explore more, showcase your vast realm of knowledge and participate in a win-win situation because as it is rightly said - "You either win or you learn."
+            desc: `Do you possess an urge to dive into the depths of knowledge about any and everything, be it books, culture, mythology or literature? 
+            Do you never leave any stone unturned to constantly learn and improve ? 
+            Do you think you have what it takes to compete with some of the brightest and aware minds?
+            If your answer is yes, then you are at the right place. This Verba Maximus, ELAS and The Quiz Club in collaboration bring to you "THE LIT QUIZ". 
+            Come and join us for an exciting event to explore more, showcase your vast realm of knowledge and participate in a win-win situation because as it is rightly said - "You either win or you learn."
+            "
             `,
             time: "Sun: 12pm F102"
         }
@@ -109,13 +110,15 @@ const EventsPage = () => {
     const onlineEvents = [
         {
             title: "ARG",
-            desc: `ARG - “Alternate Reality Game” is an internet maze where your team navigates through an online labyrinth in search for answers of a gripping story that has twists and turns at every corner. Can you braid together the web of clues present in the vastness of cyberspace and unravel the nuances of the narratives?
-        Mental fortitude and thinking on your feet are helpful traits as the ARG is sure to test your patience, but rest assured it’s a very rewarding experience that is sure to satiate your thirst for an adventurous thrill.`,
+            desc: `Featuring a misrepresented story of cursed creations with superior power. A foundation trying to do everything it can to stop the chaos. And humanity being humanity’s enemy in a twisted game of tag. ANYTHING is possible within this realm. 
+            Can you find reason within the confusion without causing the species itself to be destroyed? Find the true lore hidden within the most bizarre of clues.
+            ARG aims to throw you off as much as it tries to set something up. The only thing holding you back is your imagination and deductive skills, so if you think you have what it takes, join us for ARG!
+            `,
             time: "Sat: 2pm Online"
         },
         {
             title: "Devil's Advocate",
-            desc: `Welcome to 'Devil's advocate'! Put that devious little mind of yours in defending the indefensible. In this exciting game, prompts will be given that you must justify. Whether or not you believe it yourself, you must make sure the audience does after you're through with them. Your wits and morality will be challenged, language will flourish and incredible fun is assured!`,
+            desc: `Welcome to 'Devil's advocate'! Put that devious little mind of yours to the task of defending the indefensible. In this enigmatic game, prompts will be given that you must justify. Whether or not you believe it yourself, you must make sure the audience does after you're through with them. Your wits and morality will be challenged, language will flourish and incredible fun is assured!`,
             time: "Sat: 2pm G103 & G104"
         },
         {
@@ -125,13 +128,13 @@ const EventsPage = () => {
         },
         {
             title: "Picture Perspective",
-            desc: "With Picture Perspective, the photography club is here to give you an opportunity to stare deep into yourself as you carefully try to unravel the meaning of a few complex brushstrokes. Participants will be given picture prompts and will be given the opportunity to write according to their hearts desire.",
+            desc: `Leonardo da Vinci once said " A poet would be overcome by sleep and hunger before being able to describe with words what a painter is able to depict in an instant". Paintings speak a thousand words, and along with the photography club, we are here to give you the opportunity to meticulously unravel a few complex brushstrokes.`,
             time: "Sat: 1pm G101 & G102"
         },
         {
             title: "Backstory",
             desc: `Unlock the secrets of history’s unsolved mysteries!
-            Calling all detectives and aspiring sleuths to join us for a thrilling competition where participants will be given real life unsolved news pieces and tasked with writing a scenario that solves the mystery. Put your detective skills to the test and uncover the truth about some of history’s most intriguing unsolved cases. Register now for this one  event.
+            Calling all detectives and aspiring sleuths to join us for a thrilling competition where participants will be given real life unsolved news pieces and tasked with writing a scenario that solves the mystery. Put your detective skills to the test and uncover the truth about some of history’s most intriguing unsolved cases. Register now for this event.
             `,
             time: "Sun: 12pm F107"
         },
