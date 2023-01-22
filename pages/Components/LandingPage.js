@@ -84,7 +84,7 @@ const TitleComponent = () => {
                         justifyContent: "center",
                     }}>
                         <div style={{ fontSize: !isMobile ? "10vw" : "7vh" }}>Metamorphosis</div>
-                        <div style={{ fontSize: !isMobile ? "1.5vw" : "2vh", marginTop: "6vh", textAlign: "center" }}>Theme for the Annual English Language Activies Society`&apos;`s literary fest of the year here at <br /> BITS Pilani, Hyderabad Campus.</div>
+                        <div style={{ fontSize: !isMobile ? "1.5vw" : "2vh", marginTop: "6vh", textAlign: "center" }}>Theme for the Annual English Language Activies Society&apos;s literary fest of the year here at <br /> BITS Pilani, Hyderabad Campus.<br /><br /><Link href='https://docs.google.com/spreadsheets/d/1Rbm5mTJiMnaydnvBmk2561Ob3HEP3uuOgECIM5DEWg8/edit?usp=sharing' style={{ "color": 'blue' }}>Schedule</Link> | <Link href='https://unstop.com/creative-cultural-event/verba-maximus-23-complete-pass-verba-maximus-birla-institute-of-technology-science-bits-pilani-591176' style={{ "color": 'blue' }}>Register</Link></div>
                     </div>
                 </Animator>
             </ScrollPage>
