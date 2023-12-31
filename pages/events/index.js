@@ -15,10 +15,10 @@ const EventsPage = () => {
     }
     const events = [
         {
-            title: "METAMORPHOSIS",
-            desc: `Ever wanted to be a Sorcerer whose spells scorch the toughest of foes? A Samurai for whom honour comes above all? An outcast on a quest for revenge? Or maybe a Bard, whose mesmerizing melodies get him through the worst of perils? And better yet, embark on an adventure where every choice counts?
-            Well, we have just the event for you!
-            Put every ounce of your creative skills and quick wits to use as you write your way through our expansive, intricately designed world while charting out the identity and eventual fate of your character. Carve out your own legend as you seek your path of metamorphosis in this Dungeons and Dragons-inspired, resplendent RPG.
+            title: "Sinful Symphony",
+            desc: `Step into the extraordinary as we blend Dante's Inferno sins with the art of expression! In one bowl, the notorious nine sins await-lust, gluttony, greedy, wrath, envy, sloth, pride, avarice and despair. In another, dynamic performances beckon-debates, speeches, stories, essays, lawyer's closings, justifications.
+            Contestants draw one sni and one performance, crafting an unpredictable fusion. Witness an unparalleled showcase where sin meets storytelling, and performers unravel the unexpected.
+            Welcome to Sinful Symphony, where the stage is set for a riveting exploration of the human spirit and the boundaries of artistic prowess!
             `,
             time: "Sat: 1pm F102"
         }, {
