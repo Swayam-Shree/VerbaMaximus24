@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Verba Maximus 2023</title>
-        <meta name="description" content="Official website for VM '23" />
+        <title>Verba Maximus 2024</title>
+        <meta name="description" content="Official website for VM '24" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
