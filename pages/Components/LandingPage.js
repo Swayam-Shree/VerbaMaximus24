@@ -17,7 +17,7 @@ const LandingPage = () => {
             <section id="main"><TitleComponent /></section>
             <section id="contact">
                 <div className='landing-contact' style={{ backgroundColor: "black" }} >
-                    <div className='sub-heading-title' style={{ fontSize: "8vh", color: "rgb(250, 200, 200)" }}>Contact Us</div>
+                    <div className='sub-heading-title' style={{ fontSize: "8vh", color: "rgb(130,34,33)" }}>Contact Us</div>
                     <div style={
                         {
                             display: "flex",
@@ -25,8 +25,8 @@ const LandingPage = () => {
                             flexFlow: "wrap",
                             alignItems: "center",
                             marginTop: "1%",
-                            height: "60vh",
-                            backgroundImage: "url(/metamorphosisLogo.svg)",
+                            height: "50vh",
+                            backgroundImage: "url(/infernoLogo.svg)",
                             backgroundSize: 'contain',
                             backgroundRepeat: 'no-repeat',
                             filter: "invert(100%)"
@@ -66,7 +66,7 @@ const TitleComponent = () => {
                         <div className='title-image' />
                     </Animator>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -20))}>
-                        <div className='title'>VÈRBA MAXIMUS {!isMobile ? <></> : <br />}2023</div>
+                        <div className='title'>Vérba Maximus {!isMobile ? <></> : <br />}2024</div>
                     </Animator>
 
 
@@ -83,7 +83,7 @@ const TitleComponent = () => {
                         flexDirection: "column",
                         justifyContent: "center",
                     }}>
-                        <div style={{ fontSize: !isMobile ? "10vw" : "7vh" }}>Metamorphosis</div>
+                        <div style={{ fontSize: !isMobile ? "7.4vw" : "7vh" }}>Dante's Inferno</div>
                         <div style={{ fontSize: !isMobile ? "1.5vw" : "2vh", marginTop: "6vh", textAlign: "center" }}>Theme for the Annual English Language Activies Society&apos;s literary fest of the year here at <br /> BITS Pilani, Hyderabad Campus.<br /><br /><Link href='https://docs.google.com/spreadsheets/d/1Rbm5mTJiMnaydnvBmk2561Ob3HEP3uuOgECIM5DEWg8/edit?usp=sharing' style={{ "color": 'blue' }}>Schedule</Link> | <Link href='https://unstop.com/creative-cultural-event/verba-maximus-23-complete-pass-verba-maximus-birla-institute-of-technology-science-bits-pilani-591176' style={{ "color": 'blue' }}>Register</Link></div>
                     </div>
                 </Animator>
@@ -92,7 +92,7 @@ const TitleComponent = () => {
             <section id="eventslanding"><EventsPage /></section>
 
             <div className='landing-events' id="pricing" style={{
-                backgroundColor: "#ffb6c1"
+                backgroundColor: "#822221"
             }}>
                 <div className='sub-heading-title'>PRICING AND REGISTRATION</div>
                 <div className='landing-cards'>

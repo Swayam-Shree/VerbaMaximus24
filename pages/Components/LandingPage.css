@@ -1,5 +1,11 @@
+@font-face {
+  font-family: MagnificChaos;
+  src: url("/MagnificChaos.ttf");
+}
+
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  /* font-family: MagnificChaos, Verdana, Geneva, Tahoma, sans-serif; */
 }
 :root {
   --color1: rgb(250, 200, 200);
@@ -14,7 +20,7 @@
 .title {
   font-size: 7vw;
   color: var(--color2);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: MagnificChaos, Verdana, Geneva, Tahoma, sans-serif;
   /* background-image: url("/Images/images.png"); */
   width: max-content;
   text-align: center;
@@ -39,7 +45,7 @@
   background-size: cover;
   background-position: center;
   image-rendering: optimizeSpeed;
-  background-image: url("/metamorphosisLogo copy.svg");
+  /* background-image: url("/metamorphosisLogo copy.svg"); */
   background-repeat: no-repeat;
 }
 .landing-events {

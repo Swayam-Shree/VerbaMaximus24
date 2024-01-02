@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
     return (
         <div className='navbar'>
-            <Link scroll={false} href='/#main' relative="path"><img src="/metamorphosisLogo.svg" className='logo'/></Link>
+            <Link scroll={false} href='/#main' relative="path"><img src="/infernoLogo.svg" className='logo'/></Link>
             <div className='headers'>
                 <div className='element'> 
                     <Link scroll={false} href='/#main'>Home</Link>

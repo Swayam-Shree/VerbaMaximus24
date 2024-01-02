@@ -1,7 +1,7 @@
 :root{
-    --color1: rgb(250, 200, 200);
-    --color2: rgb(60, 10, 8);
-    --color2Blur: rgba(60, 10, 8, 0.4);
+    --color1: rgb(133,5,3);
+    --color2: rgb(71,4,5,255);
+    --color2Blur: rgba(71,4,5,0.4);
 }
 
 .navbar{
