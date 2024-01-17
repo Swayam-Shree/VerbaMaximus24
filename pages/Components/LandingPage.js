@@ -59,13 +59,13 @@ const LandingPage = () => {
               className="landing-card"
               style={{ background: "none", color: "black" }}
             >
-              <div style={{}} className="card-title">
+              <div style={{color:"cyan"}} className="card-title">
                 <b> ELAS BPHC</b>
               </div>
-              <div className="card-time">
+              <div className="card-time" style={{ color: "green" }}>
                 Email :{" "}
                 <a
-                  style={{ opacity: 0.5, color: "black" }}
+                  style={{ color: "green" }}
                   href="mailto:elas@hyderabad.bits-pilani.ac.in"
                 >
                   elas@hyderabad.bits-pilani.ac.in
