@@ -28,8 +28,8 @@ import EventsPage from "../events";
 ("/Images/maxresdefault.jpg");
 const LandingPage = () => {
   return (
-    <div className="outermost-div">
-      <section id="main">
+    <div id="main" className="outermost-div">
+      <section >
         <TitleComponent />
       </section>
       <section id="contact">
@@ -96,7 +96,7 @@ const TitleComponent = () => {
   );
   return (
     <ScrollContainer>
-      <section id="main">
+      <section style={{ padding: "" }}>
         <ScrollPage>
           <Animator animation={batch(Sticky(), Fade())}>
             <div className="title-image" />
@@ -131,29 +131,12 @@ const TitleComponent = () => {
               justifyContent: "center",
             }}
           >
+            <br/><br/><br/><br/>
             <div
               className="theme-title"
               style={{ fontSize: !isMobile ? "7.4vw" : "7vh" }}
             >
               Dante's Inferno
-            </div>
-            {/* <div className="hey1">
-              Theme for the Annual English Language Activies
-            </div>
-            <div className="hey2">
-              Theme for the Annual English Language Activies
-            </div>
-            <div className="hey3">
-              Theme for the Annual English Language Activies
-            </div>
-            <div className="hey4">
-              Theme for the Annual English Language Activies
-            </div> */}
-            <div className="hey5">
-              Theme for the Annual English Language Activies
-            </div>
-            <div className="hey6">
-              Theme for the Annual English Language Activies
             </div>
             <div
               className="theme-description"
@@ -170,14 +153,14 @@ const TitleComponent = () => {
               <br />
               <Link
                 href="https://docs.google.com/spreadsheets/d/1Rbm5mTJiMnaydnvBmk2561Ob3HEP3uuOgECIM5DEWg8/edit?usp=sharing"
-                style={{ color: "blue" }}
+                style={{ color: "aqua" }}
               >
                 Schedule
               </Link>{" "}
               |{" "}
               <Link
                 href="https://unstop.com/creative-cultural-event/verba-maximus-23-complete-pass-verba-maximus-birla-institute-of-technology-science-bits-pilani-591176"
-                style={{ color: "blue" }}
+                style={{ color: "aqua" }}
               >
                 Register
               </Link>

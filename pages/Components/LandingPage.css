@@ -100,13 +100,15 @@
   font-weight: 400;
   font-style: normal; */
   font-family: "Metal Mania", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--font-general-colour);
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  /* color: var(--font-general-colour); */
+  color: white;
   /* color: var(--red-6); */
 }
 .theme-description {
   font-family: sans-serif;
+  color: white;
 }
 .landing-events {
   margin-top: 10vh;

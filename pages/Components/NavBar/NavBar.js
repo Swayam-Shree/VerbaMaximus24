@@ -1,12 +1,17 @@
 import Link from 'next/link';
 import React from 'react';
 const NavBar = () => {
+    function scrollToTop() {
+        document.body.scrollTop = 0;   
+        document.documentElement.scrollTop = 0;
+    }
+
     return (
         <div className='navbar'>
-            <Link scroll={false} href='/#main' relative="path"><img src="/infernoLogo.svg" className='logo'/></Link>
+            <Link scroll={false} href='/' relative="path"><img src="/infernoLogo.svg" className='logo' onClick={scrollToTop} /></Link>
             <div className='headers'>
-                <div className='element'> 
-                    <Link scroll={false} href='/#main'>Home</Link>
+                <div className='element' onClick={scrollToTop}> 
+                    <Link scroll={false} href='/'>Home</Link>
                 </div>
                 <div className='element'>
                     <Link scroll={false} href='/#events'>Events</Link>
