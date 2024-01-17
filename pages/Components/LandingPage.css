@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Nosifer&display=swap");
+
 @font-face {
   font-family: MagnificChaos;
   src: url("/MagnificChaos.ttf");
@@ -13,13 +16,41 @@
   --color2: rgb(60, 10, 8);
   --color2Blur: rgba(60, 10, 8, 0.4);
   scrollbar-width: none;
+
+  --bg-colour: #251f1f;
+  --subheading-colour: #a66f6f;
+  --font-general-colour: #cdb9b9;
+
+  --red-1: #460405;
+  --red-2: #520201;
+  --red-3: #640405;
+  --red-4: #730909;
+  --red-5: #840403;
+  --red-6: #692526;
+  --red-7: #5c1819;
+  --red-8: #4a0a0a;
+  --red-9: #270100;
+  --my-colour: papaywhip;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
+.outermost-div {
+  background-color: var(--bg-colour);
+  background-image: url(./new-bg.jpg);
+  background-repeat: repeat-y;
+
+  background-blend-mode: multiply;
+  margin-top: 500px;
+}
+#main {
+  margin-top: 500px;
+}
 .title {
   font-size: 7vw;
-  color: var(--color2);
+  /* color: var(--color2); */
+  color: black;
   font-family: MagnificChaos, Verdana, Geneva, Tahoma, sans-serif;
   /* background-image: url("/Images/images.png"); */
   width: max-content;
@@ -28,6 +59,20 @@
   background-size: cover;
   /* mix-blend-mode: difference; */
   text-shadow: 0px 5px 50px var(--color2);
+}
+.title-dante-hero {
+  font-size: 4vw;
+  color: black;
+  text-align: center;
+
+  text-shadow: 0px 5px 30px var(--color2);
+
+  /* font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 .sub-title {
   font-size: 4vw;
@@ -45,8 +90,23 @@
   background-size: cover;
   background-position: center;
   image-rendering: optimizeSpeed;
-  /* background-image: url("/metamorphosisLogo copy.svg"); */
+  /* background-image: url("./heroBG.png"); */
+  background-image: url(./main-bg.png);
   background-repeat: no-repeat;
+}
+.theme-title {
+  /* font-family: MagnificChaos, Verdana, Geneva, Tahoma, sans-serif; */
+  /* font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--font-general-colour);
+  /* color: var(--red-6); */
+}
+.theme-description {
+  font-family: sans-serif;
 }
 .landing-events {
   margin-top: 10vh;
@@ -62,13 +122,16 @@
   flex-direction: column;
 }
 .sub-heading-title {
+  /* events, and all other subheadings */
   /* position: -webkit-sticky;
     position: sticky; */
   backdrop-filter: blur(3px);
   border-radius: 10px;
   padding-top: 7vh;
   font-size: 7vw;
-  color: var(--color2);
+  /* color: var(--color2); */
+  color: var(--subheading-colour);
+  /* color: aqua; */
   margin: auto;
 }
 .landing-cards {
@@ -131,10 +194,10 @@
   flex-wrap: nowrap;
 }
 .detail-title {
-    text-align: center;
-    padding-top: 10%;
-    font-size: 7vh;
-    color: var(--color1);
+  text-align: center;
+  padding-top: 10%;
+  font-size: 7vh;
+  color: var(--color1);
 }
 .detail-time {
   padding-top: 5vh;
@@ -172,10 +235,10 @@
     font-size: 7vh;
     text-align: center;
   }
-  .detail-title{
+  .detail-title {
     font-size: 7vw;
   }
-  .detail-desc{
+  .detail-desc {
     width: 90%;
   }
   .landing-card {
