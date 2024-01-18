@@ -42,48 +42,53 @@ const LandingPage = () => {
           >
             Contact Us
           </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              flexFlow: "wrap",
-              alignItems: "center",
-              marginTop: "1%",
-              height: "50vh",
-              backgroundImage: "url(/infernoLogo.svg)",
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              filter: "invert(100%)",
-            }}
-            className="landing-cards"
-          >
+          <div style={{display: "grid", gridTemplateColumns: "1fr 1fr"}}>
+            <div style={{
+                backgroundImage: "url(/vmlogo.png) ",
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+                // filter: "invert(100%)",
+              }} />
             <div
-              className="landing-card"
-              style={{ background: "none", color: "black" }}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                flexFlow: "wrap",
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: "1%",
+                height: "50vh",
+              }}
+              className="landing-cards"
             >
-              <div style={{color:"cyan"}} className="card-title">
-                <b> ELAS BPHC</b>
+              <div
+                className="landing-card"
+                style={{ background: "none", color: "black" }}
+              >
+                <div style={{color:"red"}} className="card-title">
+                  <b> ELAS BPHC</b>
+                </div>
+                <div className="card-time" style={{ color: "red" }}>
+                  Email :{" "}
+                  <a
+                    style={{ color: "white" }}
+                    href="mailto:elas@hyderabad.bits-pilani.ac.in"
+                  >
+                    elas@hyderabad.bits-pilani.ac.in
+                  </a>
+                </div>
+                <div className="logoGroup">
+                  <a href="https://www.instagram.com/vm.bphc?igsh=c2Y3eTM0dWtxZW9p">
+                    <div className="instaLogo" style={{ backgroundImage: "url(/instagram.png)" }} />
+                  </a>
+                  <a href="https://www.facebook.com/verbamaximus?mibextid=ZbWKwL">
+                    <div className="instaLogo" style={{ backgroundImage: "url(/facebook.png)" }} />
+                  </a>
+                </div>
+                {/* <div className='card-desc'>
+                                  Phone : <a style={{ opacity: 0.5, color: "black" }} href="phone:1234GETONTHEDANCEFLOOR">1234GETONTHEDANCEFLOOR</a>
+                              </div> */}
               </div>
-              <div className="card-time" style={{ color: "green" }}>
-                Email :{" "}
-                <a
-                  style={{ color: "green" }}
-                  href="mailto:elas@hyderabad.bits-pilani.ac.in"
-                >
-                  elas@hyderabad.bits-pilani.ac.in
-                </a>
-              </div>
-              <div className="logoGroup">
-                <a href="https://www.instagram.com/vm.bphc?igsh=c2Y3eTM0dWtxZW9p">
-                  <div className="instaLogo" style={{ backgroundImage: "url(/instagram.png)" }} />
-                </a>
-                <a href="https://www.facebook.com/verbamaximus?mibextid=ZbWKwL">
-                  <div className="instaLogo" style={{ backgroundImage: "url(/facebook.png)" }} />
-                </a>
-              </div>
-              {/* <div className='card-desc'>
-                                Phone : <a style={{ opacity: 0.5, color: "black" }} href="phone:1234GETONTHEDANCEFLOOR">1234GETONTHEDANCEFLOOR</a>
-                            </div> */}
             </div>
           </div>
         </div>

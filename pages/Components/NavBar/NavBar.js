@@ -8,7 +8,7 @@ const NavBar = () => {
 
     return (
         <div className='navbar'>
-            <Link scroll={false} href='/' relative="path"><img src="/infernoLogo.svg" className='logo' onClick={scrollToTop} /></Link>
+            <Link scroll={false} href='/' relative="path"><img src="/vmlogo.png" className='logo' onClick={scrollToTop} /></Link>
             <div className='headers'>
                 <div className='element' onClick={scrollToTop}> 
                     <Link scroll={false} href='/'>Home</Link>
@@ -22,8 +22,16 @@ const NavBar = () => {
                 <div className='element'>
                     <Link scroll={false} href='/#contact'>Contact Us</Link>
                 </div>
-                {/* <Link scroll={false} width="5%" href='https://www.instagram.com/elas.bphc/' relative="path"><img width="20%" src="/instagram.png" /></Link> */}
-                {/* <img src="/instagram.png" className='logo'/> */}
+                <div>
+                    <Link scroll={false} href='https://www.instagram.com/vm.bphc?igsh=c2Y3eTM0dWtxZW9p' relative="path" className="logo2">
+                        <img width="100%" src="/instagram.png" />
+                    </Link>
+                </div>
+                <div>
+                    <Link scroll={false} href='https://www.facebook.com/verbamaximus?mibextid=ZbWKwL' relative="path" className="logo2">
+                        <img width="100%" src="/facebook.png" />
+                    </Link>
+                </div>
                 <div className='element'>
                     <Link scroll={false} className='register' href='https://unstop.com/creative-cultural-event/verba-maximus-23-complete-pass-verba-maximus-birla-institute-of-technology-science-bits-pilani-591176'>Register</Link>
                 </div>
