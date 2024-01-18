@@ -252,3 +252,14 @@
     padding: 3vw;
   }
 }
+.logoGroup {
+  display: flex;
+}
+.instaLogo {
+  background: "url(/instagram.png)";
+  width: 120%;
+  height: 120%;
+  margin: 2em;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

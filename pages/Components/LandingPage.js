@@ -25,6 +25,8 @@ import {
 } from "react-scroll-motion";
 import EventsPage from "../events";
 
+import instaLogo from "../../public/instagram.png"
+
 ("/Images/maxresdefault.jpg");
 const LandingPage = () => {
   return (
@@ -69,6 +71,14 @@ const LandingPage = () => {
                   href="mailto:elas@hyderabad.bits-pilani.ac.in"
                 >
                   elas@hyderabad.bits-pilani.ac.in
+                </a>
+              </div>
+              <div className="logoGroup">
+                <a href="https://www.instagram.com/vm.bphc?igsh=c2Y3eTM0dWtxZW9p">
+                  <div className="instaLogo" style={{ backgroundImage: "url(/instagram.png)" }} />
+                </a>
+                <a href="https://www.facebook.com/verbamaximus?mibextid=ZbWKwL">
+                  <div className="instaLogo" style={{ backgroundImage: "url(/facebook.png)" }} />
                 </a>
               </div>
               {/* <div className='card-desc'>
