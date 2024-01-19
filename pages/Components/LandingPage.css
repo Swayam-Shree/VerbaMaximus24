@@ -139,6 +139,11 @@
 .landing-cards {
   margin-top: 5%;
   width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: wrap;
+  justify-content: center;
 }
 .landing-card {
   border-radius: 10px;
